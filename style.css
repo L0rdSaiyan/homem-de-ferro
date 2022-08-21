@@ -19,14 +19,15 @@ height: 650px;
 
     width: 670px;
     height: 690px;
+    margin-bottom: 120px;
+    margin-left: 25px;
 
 }
-
 
 @keyframes tirarmascara{
 
     from{margin-top: 80px;}
-    to{margin-bottom: 200px;}
+    to{margin-bottom: 350px;}
 
 }
 
@@ -47,15 +48,55 @@ height: 650px;
     align-items: center;
     justify-content: conter;
     margin-top: 80px;
-    margin-right: 20px ;
+    margin-right: 20px;
 
 }
 
-#filho:hover{
+#filho:active{
 
     animation-name: tirarmascara;
-    animation-iteration-count: infinite;
     animation-duration: 2s;
 
+}
+
+#filho2{
+
+    display: flex;
+    position:absolute;
+    margin-left: 20px;
+    background-color: red;
+    border-radius: 70px;
+    width: 300px;
+    height: 200px;
+
+}
+
+p{
+
+    display: flex;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 5px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#github{
+
+    display: flex;
+    position: absolute;
+    margin-top: 332px;
+    margin-left: 190px;
+    width: 50px;
+    height: 50px;
+    transition: 200ms;
+
+}
+
+#github:hover{
+
+    transform: scale(1.1);
+    cursor: pointer;
 
 }
