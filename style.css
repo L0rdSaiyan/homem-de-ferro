@@ -52,9 +52,10 @@ height: 520px;
 
 }
 
-#filho:active{
+#filho:hover{
 
     animation-name: tirarmascara;
+    animation-iteration-count: infinite;
     animation-duration: 2s;
     cursor: pointer;
 
