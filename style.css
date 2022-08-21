@@ -52,7 +52,7 @@ height: 520px;
 
 }
 
-#filho:hover{
+#filho:active{
 
     animation-name: tirarmascara;
     animation-duration: 2s;
