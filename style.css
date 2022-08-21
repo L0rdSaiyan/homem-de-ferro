@@ -52,24 +52,12 @@ height: 520px;
 
 }
 
-#filho:active{
+#filho:hover{
 
     animation-name: tirarmascara;
     animation-iteration-count: infinite;
     animation-duration: 2s;
     cursor: pointer;
-
-}
-
-#filho2{
-
-    display: flex;
-    position:absolute;
-    margin-left: 20px;
-    background-color: red;
-    border-radius: 70px;
-    width: 300px;
-    height: 200px;
 
 }
 
