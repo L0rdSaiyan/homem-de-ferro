@@ -10,16 +10,16 @@ background-image: linear-gradient(120deg, blue, white);
 
 #helmet{
 
-width: 650px;
-height: 650px;
+width: 520px;
+height: 520px;
 
 }
 
 #mask{
 
-    width: 670px;
-    height: 690px;
-    margin-bottom: 120px;
+    width: 540px;
+    height: 550px;
+    margin-bottom: 110px;
     margin-left: 25px;
 
 }
@@ -75,7 +75,7 @@ p{
 
     display: flex;
     position: absolute;
-    margin-top: 700px;
+    margin-top: 570px;
     margin-left: 5px;
     font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -86,7 +86,7 @@ p{
 
     display: flex;
     position: absolute;
-    margin-top: 332px;
+    margin-top: 265px;
     margin-left: 190px;
     width: 50px;
     height: 50px;
