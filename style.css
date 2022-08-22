@@ -26,8 +26,23 @@ height: 520px;
 
 @keyframes tirarmascara{
 
-    from{margin-top: 80px;}
-    to{margin-bottom: 350px;}
+    from{
+        margin-top: 80px;
+    }
+    to{
+        margin-bottom: 400px;
+    }
+
+}
+
+@keyframes botarmascara{
+
+    from{
+        margin-bottom: 400px;
+    }
+    to{
+        margin-top: 80px;
+    }
 
 }
 
@@ -55,11 +70,20 @@ height: 520px;
 #filho:hover{
 
     animation-name: tirarmascara;
-    animation-iteration-count: infinite;
     animation-duration: 2s;
+    animation-fill-mode: forwards;
     cursor: pointer;
 
 }
+
+#filho:not( :hover ){ 
+
+    animation-name: botarmascara;
+    animation-duration: 2s;
+
+}
+
+
 
 p{
 
