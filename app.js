@@ -10,6 +10,7 @@ function easterEgg(event){
 
     if(array[0]=="t" && array[1]=="a" && array[2]=="u" && array[3]=="z"){
 
+        tauz.currentTime = 5
         tauz.play();
 
     }
