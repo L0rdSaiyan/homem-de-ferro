@@ -13,7 +13,7 @@ function easterEgg(event){
         tauz.currentTime = 5
         tauz.play();
 
-      for(let i=0; i<=5; i++){
+      for(let i=0; i<=3; i++){
 
         array[i] = 0;
 
